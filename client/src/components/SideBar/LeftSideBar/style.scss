@@ -1,0 +1,16 @@
+.LeftSideBarComponent__overlay {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+ 
+}
+
+.LeftSideBarComponent__overlay--show {
+  opacity: 0.5;
+  visibility: visible;
+}
+.LeftSideBarComponent__overlay--hide {
+  opacity: 0;
+  visibility: hidden;
+}
